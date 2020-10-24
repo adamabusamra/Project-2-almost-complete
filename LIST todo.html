@@ -1,0 +1,119 @@
+<html>
+
+  <head>
+    <title>
+      ARA Business
+    </title>
+    <link rel="stylesheet" href="css/bootstrap.css" />
+    <link rel="stylesheet" href="css/To-Do app.css" />
+    <link href='https://fonts.googleapis.com/css?family=Chilanka'
+      rel='stylesheet'>
+    <!-- icone for menu-->
+    <script src="https://kit.fontawesome.com/7ae71a9832.js"
+      crossorigin="anonymous"></script>
+    <!-- Iused 5type for meta-->
+    <meta charset="utf-8">
+
+    <meta name="author" content="BY ARA">
+    <!--the viewport to make your website look good on all devices-->
+    <meta name="viewport" content="width=device-width, initial-scale=1,
+      shrink-to-fit=no">
+    <meta name="description" content="ARA Bussiness Owner BY Assel Roaa and
+      Adem.This web application was created to help businessmen,
+      the banking sector and companies to organize their businesses, accounts
+      housewives, university and school students.">
+    <meta name="keyword" content="Organize tasks, time management,Speed in
+      completing tasks,Quality
+      in services,Accuracy in arithmetic operations">
+  </head>
+
+  <body>
+    <div id="wholePage">
+      <header class="pagecontainer">
+        <!-- start structure for header-->
+        <img src="images/logo.png">
+        <p> "According to MY calculator Problem Doesn't Exist"</p>
+        <h1>SignUp</h1>
+
+      </header>
+      <div id="sidebar">
+        <div class="toggle-btn" onclick="toggleSidebar(this)">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <!-- content sidebar-->
+        <div class="list">
+          <div class="item"><a href="index.html">SignUp</a></div>
+          <div class="item"> <a href="LIST todo.html">List to do</a></div>
+          <div class="item"> <a href="calculator.html">calculator</a></div>
+        </div>
+      </div>
+      <div id="To-Do">
+        <div class="container">
+          <div class="row">
+            <div class="col-sm"></div>
+            <div class="col-sm text-center">
+              <h1>Welcome<br>
+                <span id="welcomeMessage"></span></h1>
+            </div>
+            <div class="col-sm"></div>
+          </div>
+        </div>
+
+        <div class="container mt-5">
+          <div class="row">
+            <div class="col-md-3 text-left text-md-right p-0">
+              <h2>New Task :</h2>
+            </div>
+            <div class="col-md-6">
+              <form id="taskForm">
+                <input type="text" class="form-control" name="task" id="task"
+                  placeholder="New Task" />
+
+              </div>
+              <div class="col-md-3">
+                <input type="submit" class="btn btn-primary" value="Add Task"
+                  id="addTaskButton" />
+              </form>
+            </div>
+          </div>
+        </div>
+
+        <div class="container mt-5 mb-2">
+          <div class="row">
+            <div class="col-md-3">
+              <a href="#" class="btn btn-danger float-md-right mr-5"
+                id="clearButton"><h5>Clear Tasks</h5></a>
+            </div>
+            <div class="col-md-6 text-center bg-info text-white rounded">
+              <h2>Tasks</h2>
+            </div>
+            <div class="col-md-3"></div>
+          </div>
+        </div>
+
+        <div class="ulContainer container">
+          <div class="row">
+            <div class="col-0 col-md-2"></div>
+            <div class="col-12 col-md-8">
+              <ul class="taskList"></ul>
+            </div>
+            <div class="col-0 col-md-2"></div>
+          </div>
+        </div>
+        <div class="container- w-100">
+          <footer class="footer">
+            <p> Power by:ARA Business @Amman-Jordan</p>
+          </footer>
+        </div>
+      </div>
+      <script
+        src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+      <script src="js/To-do app.js"></script>
+    </div>
+
+
+  </body>
+
+</html>
